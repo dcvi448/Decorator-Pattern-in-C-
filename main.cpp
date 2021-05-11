@@ -65,4 +65,5 @@ int main()
     pc = new Monitor(pc);
     pc->description();
     cout << endl << "COST: " << pc->calCost() << endl;
+    return 0;
 }
